@@ -1,4 +1,17 @@
-# IndicOCR Mobile
+## 🔒 Model & Data Notice
+
+This repository demonstrates the deployment and mobile-inference pipeline for an
+Indic OCR system using a Vision Transformer (ViT) with CTC-based recognition.
+
+The repository contains the Android application, preprocessing pipeline, ONNX
+integration, inference utilities, and model-conversion/deployment scripts.
+
+The original trained model weights, training dataset, and any proprietary
+training/configuration details are not included in this repository due to
+confidentiality and usage restrictions.
+
+The model interface and deployment code are provided for reproducibility of the
+software pipeline without disclosing restricted model assets.# IndicOCR Mobile
 
 An offline-first Android OCR application for recognizing Indic/Odia text using an on-device Vision Transformer + CTC OCR pipeline.
 
